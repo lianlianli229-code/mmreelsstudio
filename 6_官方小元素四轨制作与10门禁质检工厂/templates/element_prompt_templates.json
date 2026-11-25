@@ -1,0 +1,31 @@
+{
+  "schema": "vn-element-prompts/2.0",
+  "notes": "DO NOT pad square subjects into 1080x1920 with >=21% margins (that crushes subject resolution). Match native aspect (1:1 / 3:4 / 4:3) with tight 8%-12% safe margin (12%-13% top headroom for upward wing flaps/flames) via fast_element_factory.py prep-still --aspect auto, and submit to Colab H3 multi with res=2 and matching aspect.",
+  "presets": {
+    "dove_hover_green_loop": {
+      "track": "Track B (Colab H3 multi opt=true, or Flow 1.2 + strict fast_element_qa check)",
+      "background": "#00FF00",
+      "prompt": "Steady continuous 5-second seamless hover animation starting immediately at Frame 0 and maintaining identical full scale and centered position through the final frame. The snow-white dove stays 100% present and constant size in the center from Frame 0 to end with graceful rhythmic continuous wing flapping and tiny golden sparkles shimmering steadily throughout—NEVER flying in from off-screen, NEVER starting invisible, NEVER shrinking, NEVER flying off-screen. Static locked tripod camera, ZERO camera zoom, ZERO pan. Pure flat uniform #00FF00 chroma-key green background with zero floor, zero shadow, zero text, zero crucifix."
+    },
+    "wreath_prop_green_loop": {
+      "track": "Track A procedural preferred; Track B if 3D parallax needed",
+      "background": "#00FF00",
+      "prompt": "Continuous steady-state 5-second seamless loop starting immediately at Frame 0 through the final frame. Keep the sacred floral wreath / empty filigree cross / rosary prop completely intact and centered inside safe margins on 100% pure flat #00FF00 chroma-key green background. Flowers, golden shimmer glints, and silk ribbons breathe and ripple gently in place from Frame 0 to end (NEVER spawning new parts mid-clip or vanishing before the end). Static locked tripod camera, ZERO zoom, zero text, zero edge clipping, ZERO crucifix corpus."
+    },
+    "black_void_flame_feather_loop": {
+      "track": "Track A procedural preferred for clean embers/petals; Track C black_fire if true video",
+      "background": "#000000",
+      "prompt": "Continuous steady-state 5-second seamless luminous loop starting fully active with all wings, flames, and embers already present at Frame 0 and staying equally radiant through the final frame—NEVER fading out, NEVER igniting from empty black. Keep the glowing white angel feathers, burning Sacred Heart / Pentecostal amber-gold flames, and rising stardust bright, centered inside safe margins against a 100% pitch-black #000000 void. Static locked tripod camera, ZERO zoom, zero green tint, zero text."
+    },
+    "spin_360_turntable_green": {
+      "track": "Track B (Colab H3 multi opt=true)",
+      "background": "#00FF00",
+      "prompt": "Seamless 360-degree continuous UNIDIRECTIONAL horizontal turntable rotation around the vertical Y-axis of the centered sacred empty golden cross / monstrance / jewel emblem, completing an exact full 360-degree turn at constant uniform angular velocity from Frame 0 back to identical front view at the final frame (NEVER oscillating back and forth like a pendulum). Front and back sides share symmetrical rich gold jewel detailing. Static locked tripod camera, ZERO zoom, ZERO drift, pure flat #00FF00 chroma-key green background, generous margin on all 4 sides, ZERO crucifix corpus."
+    },
+    "praying_angel_robed_closed_eyes": {
+      "track": "Track B (Flow 1.2 or Colab H3 multi)",
+      "background": "#00FF00",
+      "prompt": "Continuous steady-state 5-second seamless loop starting immediately at Frame 0: serene modest angel wearing a full white and gold liturgical robe (never bare skin), eyes gently closed in reverent prayer, full snow-white wings already open and fluttering gracefully in place, holding glowing roses / golden heart inside safe center margins. Static locked tripod camera, ZERO zoom, pure flat #00FF00 chroma-key green background, zero text."
+    }
+  }
+}

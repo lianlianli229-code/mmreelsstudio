@@ -1,0 +1,6 @@
+﻿id,group_name,display_name,short_desc,feel_tags,skill_key,mvp_verified,enabled,muse_api_endpoint
+R-001,自媒体,自媒体 · 卡点快节奏,强重音、明显卡点、快速变化,卡点|冲击|快速变化,social_fast_v1,true,true,"POST https://mmreels-studio.mmreels-studio.workers.dev/api/v1/rhythm/plan (template_id=""R-001"")"
+R-002,自媒体,自媒体 · 温柔节奏,呼吸感微推、切点暖雾衔接、情绪渐进,温柔呼吸|丝滑切点|沉浸代祷,social_gentle_v1,true,true,"POST https://mmreels-studio.mmreels-studio.workers.dev/api/v1/rhythm/plan (template_id=""R-002"")"
+R-003,自媒体,自媒体 · 悬念节奏,欲扬先抑、停顿逼近、转折揭示,悬念铺垫|慢逼近|转折留存,social_suspense_v1,false,true,"POST https://mmreels-studio.mmreels-studio.workers.dev/api/v1/rhythm/plan (template_id=""R-003"")"
+R-004,剧情,剧情 · 自然沉浸,保护原片运镜、专注镜头切点与情绪呼吸,镜头关系|情绪连续|克制干预,story_natural_v1,false,true,"POST https://mmreels-studio.mmreels-studio.workers.dev/api/v1/rhythm/plan (template_id=""R-004"")"
+R-005,特殊,灾难 / 劝勉 · 警醒冲击,危机感抓人、重音震击、结尾圣光释放,警醒重音|高张力|救赎释放,disaster_warning_v1,false,true,"POST https://mmreels-studio.mmreels-studio.workers.dev/api/v1/rhythm/plan (template_id=""R-005"")"

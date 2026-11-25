@@ -1,0 +1,21 @@
+{
+  "name": "reels-studio-cloud",
+  "version": "5.0.0",
+  "description": "Reels 工作室 · 五库全链路零门槛造片平台 (视频写词库 P-* / 智能音乐库 M-* / 节奏特效库 R-* / 字幕库 S-* / 小元素库 E-*)",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/local_server.mjs",
+    "dev": "node scripts/local_server.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "reels-studio",
+    "flow-prompts",
+    "smart-music",
+    "davinci-resolve-rhythm-fx",
+    "burmese-vietnamese-subtitles",
+    "alpha-webm-elements"
+  ],
+  "author": "Reels Studio",
+  "license": "PRIVATE"
+}
